@@ -15,7 +15,7 @@ end
 end
 
 #욕설 필터링 검증용
-Post.create([{user_id: 5, title: Faker::Lorem.word, content: "fuck boy goto hell!!"}])
+Post.create([{user_id: 1, title: Faker::Lorem.word, content: "fuck boy goto hell!!"}])
 
 Group.create name: :young
 Group.create name: :old
